@@ -26,11 +26,12 @@ class RelationshipViewer(ttk.Frame):
         master: tk.Tk,
         graph: RelationshipGraph | None = None,
         status_message: str = "Loaded sample workspace.",
+        current_path: Path | None = None,
     ) -> None:
         super().__init__(master, padding=10)
         self.master = master
         self.graph = graph if graph is not None else load_graph(None)
-        self.current_path: Path | None = None
+        self.current_path = current_path
         self.selected_entity_id: str | None = next(iter(self.graph.entities), None)
         self.layout_mode = tk.StringVar(value="Tree")
         self.search_var = tk.StringVar()

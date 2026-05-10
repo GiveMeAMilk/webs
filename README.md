@@ -9,7 +9,7 @@ python3 app.py
 ```
 
 Tkinter is included with most Python installations, so there are no package dependencies.
-On launch, choose **Open Example Workspace**, **Open New Workspace**, or **Quit**.
+On launch, choose **Open Example Workspace**, **Open Workspace**, **Open New Workspace**, or **Quit**.
 
 ## Features
 
