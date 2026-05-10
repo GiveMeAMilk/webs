@@ -53,3 +53,7 @@ Saved workspaces are plain JSON:
 ```
 
 Attribute fields in the GUI accept one `key: value` or `key=value` pair per line.
+
+## License
+
+MIT License. See [LICENSE](LICENSE).
